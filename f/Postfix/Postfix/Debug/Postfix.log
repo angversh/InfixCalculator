@@ -1,0 +1,155 @@
+﻿  Postfix.cpp
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(6,14): error C2011: ListEl: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(6): message : см. объявление "ListEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11,16): error C2011: DoubleEl: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27,14): error C2011: CharEl: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(43,12): error C2011: Node: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(43): message : см. объявление "Node"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(53,14): error C2011: MyList: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(53): message : см. объявление "MyList"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9,31): error C2504: MyList: не определен базовый класс
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(12,3): error C2065: HeadNode: необъявленный идентификатор
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(20,10): error C3861: IsEmpty: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(23,10): error C3861: ListSize: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(26,3): error C3861: DeleteList: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(29,3): error C3861: AddEnd: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(32,35): error C2065: HeadNode: необъявленный идентификатор
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(32,3): error C3861: DeletePosition: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(35,10): error C3861: FindPosition: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40,31): error C2504: MyList: не определен базовый класс
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(43,3): error C2065: HeadNode: необъявленный идентификатор
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(49,3): error C3861: DeleteList: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(52,10): error C3861: IsEmpty: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(55,10): error C3861: ListSize: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(58,3): error C3861: AddEnd: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(61,21): error C2065: HeadNode: необъявленный идентификатор
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(61,3): error C3861: DeletePosition: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(64,10): error C3861: FindPosition: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(67,10): error C3861: FindPosition: идентификатор не найден
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(141,1): error C2680: DoubleEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(141,1): message : DoubleEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(142,1): error C2680: DoubleEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(142,1): message : DoubleEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(142,61): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(142,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(151,1): error C2680: DoubleEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(151,1): message : DoubleEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(159,1): error C2680: DoubleEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(159,1): message : DoubleEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(162,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(162,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(162,1): error C2660: PostfixCalc::MakeOp: функция не принимает 2 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(84,7): message : см. объявление "PostfixCalc::MakeOp"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(164,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(164,42): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(164,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(184,1): error C2680: DoubleEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(184,1): message : DoubleEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(39,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(65,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(125,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(143,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(143,57): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(143,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(149,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(149,57): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(149,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(156,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(156,57): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(156,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(160,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(160,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(161,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(161,59): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(161,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(163,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(163,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(164,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(164,59): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(164,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(166,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(166,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(167,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(167,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(168,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(168,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(169,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(169,59): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(169,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(172,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(172,59): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(172,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(177,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(177,57): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(177,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(181,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(181,55): error C2039: "HeadNode": не является членом "MyStack".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(181,1): error C2660: MyStack::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(28,7): message : см. объявление "MyStack::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(185,1): error C2027: использование неопределенного типа "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(11): message : см. объявление "DoubleEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(185,57): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(185,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(189,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(189,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(190,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(190,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(191,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(191,55): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(191,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(204,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(204,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(209,1): error C2680: CharEl *: недопустимый целевой тип для dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(209,1): message : CharEl: класс должен быть определен перед использованием в dynamic_cast
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(210,1): error C2027: использование неопределенного типа "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\List.cpp(27): message : см. объявление "CharEl"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(210,51): error C2039: "HeadNode": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(210,1): error C2660: MyQueue::Push: функция не принимает 1 аргументов
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(57,7): message : см. объявление "MyQueue::Push"
+C:\Users\User\source\repos\Postfix\Postfix\Infix.cpp(259,27): error C2039: "print": не является членом "MyQueue".
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9,15): error C2011: MyStack: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(9): message : см. объявление "MyStack"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40,15): error C2011: MyQueue: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(40): message : см. объявление "MyQueue"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(71,19): error C2011: PostfixCalc: переопределение типа "class"
+C:\Users\User\source\repos\Postfix\Postfix\Postfix.cpp(71): message : см. объявление "PostfixCalc"
